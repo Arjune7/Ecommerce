@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { urlFor } from 'lib/client'
 
 function HeroBanner({heroBanner}) {
-  
+ 
   return (
     <div className='hero-banner-container'>
       <p className='beats-solo'>{heroBanner.smallText}</p>
